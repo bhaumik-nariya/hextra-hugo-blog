@@ -18,26 +18,29 @@ markup:
 
 menu:
   main:
-    - name: Docs
-      pageRef: /docs
+    - name: Life
+      pageRef: /life
       weight: 1
-    - name: About
-      pageRef: /about
+    - name: AI
+      pageRef: /ai
       weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
+    - name: Finance
+      pageRef: /finance
       weight: 3
-    - name: Search
+    - name: Work
+      pageRef: /work
       weight: 4
+    - name: Search
+      weight: 5
       params:
         type: search
     - name: GitHub
-      weight: 5
+      weight: 6
       url: "https://github.com/imfing/hextra-starter-template"
       params:
         icon: github
     - name: Twitter
-      weight: 6
+      weight: 7
       url: "https://twitter.com/"
       params:
         icon: x-twitter
